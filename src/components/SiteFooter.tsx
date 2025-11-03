@@ -1,3 +1,4 @@
+
 const icons = [
   {
     name: "Instagram",
@@ -28,13 +29,13 @@ const SiteFooter = () => {
       <div className="relative mx-auto flex max-w-6xl flex-col gap-10 px-6 md:flex-row md:items-center md:justify-between">
         <div className="space-y-4">
           <div className="flex items-center gap-3 text-lg font-semibold text-primary">
-            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary font-serif text-2xl text-contrast shadow-[0_12px_35px_-20px_rgba(248,163,64,0.7)]">
-              T+
-            </span>
             Tiller + Grain
           </div>
           <p className="max-w-sm text-sm text-[rgba(250,248,242,0.8)]">
             Fresh, seasonal vegetarian plates served with Dublin hospitality in the heart of Dublin 2.
+          </p>
+          <p className="text-xs uppercase tracking-[0.32em] text-[rgba(250,248,242,0.65)]">
+            Built with React & Vite
           </p>
         </div>
 

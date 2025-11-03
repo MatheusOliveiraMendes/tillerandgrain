@@ -2,6 +2,8 @@ import Hero from "./components/Hero";
 import HighlightsStrip from "./components/HighlightsStrip";
 import AboutSection from "./components/AboutSection";
 import MenuHighlights from "./components/MenuHighlights";
+import CommunityExperiences from "./components/CommunityExperiences";
+import GalleryShowcase from "./components/GalleryShowcase";
 import SustainabilitySection from "./components/SustainabilitySection";
 import ContactSection from "./components/ContactSection";
 import SiteFooter from "./components/SiteFooter";
@@ -16,6 +18,8 @@ function App() {
       <main className="space-y-24 pb-24 pt-16 md:pt-20">
         <AboutSection />
         <MenuHighlights />
+        <CommunityExperiences />
+        <GalleryShowcase />
         <SustainabilitySection />
         <ContactSection />
       </main>
