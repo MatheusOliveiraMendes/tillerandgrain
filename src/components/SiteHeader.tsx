@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logoMark from "../assets/TG-Logo.png";
 
 const navItems = [
   { href: "#about", label: "About" },
@@ -27,13 +28,13 @@ const SiteHeader = () => {
     >
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6">
         <a className="flex items-center gap-2" href="#home">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary font-serif text-xl text-contrast">
-            T+
+          <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-white/90 shadow-[0_12px_30px_-18px_rgba(35,49,59,0.45)]">
+            <img alt="Tiller + Grain logo" className="h-8 w-8 object-contain" src={logoMark} />
           </span>
           <div>
             <p className="font-serif text-lg text-contrast leading-none">Tiller + Grain</p>
             <p className="text-[10px] uppercase tracking-[0.32em] text-[rgba(77,77,77,0.6)]">
-              Dublin 2 - Vegetarian Cafe
+             Vegetarian Cafe
             </p>
           </div>
         </a>
@@ -51,14 +52,15 @@ const SiteHeader = () => {
         </nav>
 
         <div className="hidden items-center gap-4 lg:flex">
-          <span className="rounded-full bg-white/70 px-4 py-1 text-[11px] font-semibold uppercase tracking-[0.28em] text-contrast">
-            Open today 08:00-18:00
-          </span>
+          <div className="rounded-2xl bg-white/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.26em] text-contrast">
+            <span className="block">Open Mon-Fri: 8am-4pm</span>
+            <span className="block text-[9.5px] tracking-[0.3em] text-[rgba(77,77,77,0.7)]">Sat & Sun: Closed</span>
+          </div>
           <a
             className="rounded-full border border-primary px-5 py-2 text-sm font-semibold text-contrast transition hover:bg-primary hover:text-contrast"
             href="#contact"
           >
-            Book a table
+            Book Catering
           </a>
         </div>
 

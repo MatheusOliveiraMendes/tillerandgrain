@@ -1,4 +1,4 @@
-import heroImage from "../assets/Layer-7-1-scaled.jpg";
+import heroImage from "../assets/Screenshot 2025-10-29 at 23.19.26.png";
 
 const Hero = () => {
   return (
@@ -58,14 +58,14 @@ const Hero = () => {
             <div className="absolute -left-6 top-10 hidden h-24 w-24 rounded-full border border-white/60 bg-white/70 shadow-[0_35px_80px_-50px_rgba(15,24,32,0.65)] backdrop-blur sm:block" />
             <div className="relative overflow-hidden rounded-[2.75rem] border border-white/60 bg-white shadow-[0_50px_120px_-60px_rgba(15,24,32,0.55)] transition duration-700 hover:-translate-y-1 hover:shadow-[0_50px_120px_-40px_rgba(15,24,32,0.55)]">
               <img
-                alt="Fresh seasonal salad bowls at Tiller + Grain"
+                alt="Press feature spotlighting Tiller + Grain"
                 className="h-full w-full object-cover"
                 src={heroImage}
               />
               <div className="absolute bottom-6 left-6 rounded-2xl bg-white/85 px-5 py-4 text-sm text-[color:var(--color-neutral-dark)] shadow-lg backdrop-blur">
-                <p className="font-semibold text-contrast">Seasonal Harvest Bowl</p>
+                <p className="font-semibold text-contrast">Featured Press Spotlight</p>
                 <p className="text-xs text-[rgba(94,94,94,0.7)]">
-                  Marinated grains, heirloom tomatoes, roasted roots & citrus dressing.
+                  Celebrated among Dublin&apos;s top vegetarian cafes for seasonal creativity.
                 </p>
               </div>
             </div>
