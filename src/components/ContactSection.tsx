@@ -1,5 +1,5 @@
 import { contactDetails, operatingHours } from "../content";
-import facadeImage from "../assets/TG_Christmas-50-1-980x722.jpg";
+import facadeImage from "../assets/tiller-and-grain-restaurant-exterior-yellow-facade.jpg";
 
 const ContactSection = () => {
   return (

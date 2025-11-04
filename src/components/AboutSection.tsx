@@ -1,4 +1,4 @@
-import chefImage from "../assets/Layer-12-1-scaled.jpg";
+import chefImage from "../assets/assorted-vegetarian-grain-bowls-roasted-vegetables.jpg";
 
 const AboutSection = () => {
   return (
@@ -14,7 +14,7 @@ const AboutSection = () => {
           <div className="absolute -left-6 -top-6 h-16 w-16 rounded-full bg-secondary/50 blur-sm" />
           <div className="overflow-hidden rounded-[2.5rem] border border-white/60 bg-white shadow-[0_45px_110px_-60px_rgba(35,49,59,0.45)] transition duration-500 hover:-translate-y-1 hover:shadow-[0_45px_110px_-40px_rgba(35,49,59,0.45)]">
             <img
-              alt="Chef Clair Dowling of Tiller + Grain"
+              alt="Signature grain bowls layered with seasonal vegetables"
               className="h-full w-full object-cover"
               src={chefImage}
             />
