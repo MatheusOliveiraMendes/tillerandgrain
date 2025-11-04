@@ -18,11 +18,11 @@ const Hero = () => {
               Dublin - Ireland
             </span>
             <h1 className="font-serif text-4xl leading-tight text-contrast md:text-[3.25rem] lg:text-[3.75rem]">
-              Seasonal cooking with a contemporary soul.
+              Seasonal salads, sandwiches, and bakery.
             </h1>
             <p className="max-w-xl text-base text-[color:var(--color-neutral-mid)] md:text-lg">
-              At Tiller + Grain, Dublin sunlight meets vibrant vegetarian plates made fresh each
-              morning. Every dish shines a light on the independent growers who inspire our kitchen.
+              Tiller + Grain celebrates fresh Irish produce with daily salads, warm mains, and baked
+              treats, plus fish and meat specials from trusted local partners.
             </p>
             <div className="flex flex-wrap items-center gap-3">
               <a
@@ -41,15 +41,15 @@ const Hero = () => {
             <div className="grid gap-4 text-xs text-[rgba(77,77,77,0.65)] sm:grid-cols-2 sm:text-sm">
               <div className="flex items-center gap-3 rounded-2xl border border-[rgba(15,24,32,0.05)] bg-white/70 px-4 py-3 shadow-sm shadow-[rgba(15,24,32,0.08)] backdrop-blur">
                 <span className="flex h-9 w-9 items-center justify-center rounded-full bg-support/70 font-semibold text-white">
-                  30+
+                  48h
                 </span>
-                Local and seasonal sourcing all year long
+                Pre-order Trip Boxes for staycations and studio days
               </div>
               <div className="flex items-center gap-3 rounded-2xl border border-[rgba(15,24,32,0.05)] bg-white/70 px-4 py-3 shadow-sm shadow-[rgba(15,24,32,0.08)] backdrop-blur">
                 <span className="flex h-9 w-9 items-center justify-center rounded-full bg-primary/80 font-semibold text-contrast">
-                  2018
+                  50
                 </span>
-                Smiling vegetarians since opening day
+                Catering menus tailored for gatherings of up to fifty people
               </div>
             </div>
           </div>
@@ -71,12 +71,12 @@ const Hero = () => {
             </div>
             <div className="absolute -left-7 top-8 hidden w-44 rounded-2xl border border-white/60 bg-white/85 px-5 py-4 text-sm text-[color:var(--color-neutral-dark)] shadow-lg backdrop-blur md:block">
               <p className="font-semibold text-contrast">Chef Clair Dowling</p>
-              <p className="text-xs text-[rgba(94,94,94,0.7)]">“Every dish begins with a local grower.”</p>
+              <p className="text-xs text-[rgba(94,94,94,0.7)]">"Every dish begins with a local grower."</p>
             </div>
             <div className="absolute -bottom-6 right-4 hidden rounded-3xl bg-[color:var(--color-accent)]/90 px-5 py-4 text-xs font-medium text-[color:var(--color-neutral-light)] shadow-xl shadow-[rgba(35,49,59,0.45)] md:flex md:flex-col md:gap-1">
-              <span className="text-sm font-semibold">Currently in season</span>
-              <span>- Wicklow asparagus</span>
-              <span>- Boyne Valley goat cheese</span>
+              <span className="text-sm font-semibold">Currently on the pass</span>
+              <span>- Cumin Roast Irish Squash</span>
+              <span>- Goatsbridge Sea Trout</span>
             </div>
           </div>
         </div>

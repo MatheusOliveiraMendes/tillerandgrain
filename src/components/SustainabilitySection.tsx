@@ -19,8 +19,8 @@ const SustainabilitySection = () => {
             A commitment to plates that care for you and the planet.
           </h2>
           <p className="mt-4 text-[rgba(77,77,77,0.8)]">
-            From soil to service, every decision at Tiller + Grain is rooted in community,
-            traceability, and respect for the land that feeds us.
+            Traceable sourcing is part of every plate - celebrating growers like Airfield Farm, JJ
+            Young & Sons, Sustainable Seafood Ireland, and Lilliput Stores.
           </p>
         </div>
 
@@ -39,17 +39,17 @@ const SustainabilitySection = () => {
         <div className="rounded-[2.25rem] border border-white/60 bg-white/85 px-8 py-10 shadow-[0_40px_100px_-60px_rgba(35,49,59,0.45)] backdrop-blur">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div className="max-w-2xl">
-              <h3 className="font-serif text-2xl text-contrast">Meet our producers</h3>
+              <h3 className="font-serif text-2xl text-contrast">Get to know our suppliers</h3>
               <p className="mt-2 text-sm text-[rgba(77,77,77,0.75)]">
-                We host seasonal visits to the farms and workshops of our partners. See firsthand how
-                each ingredient arrives at Tiller + Grain.
+                Explore the stories behind our growers, fishmongers, and butchers, and reach out if
+                you need supplier or allergen details for your visit.
               </p>
             </div>
             <a
               className="w-fit rounded-full bg-gradient-to-r from-[color:var(--color-primary)] to-[color:var(--color-primary-dark)] px-6 py-3 text-sm font-semibold text-contrast shadow-lg shadow-primary/40 transition hover:-translate-y-0.5"
-              href="#contact"
+              href="#about"
             >
-              Join the next visit
+              About our food
             </a>
           </div>
         </div>

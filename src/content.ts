@@ -12,37 +12,43 @@ import workshopsGathering from "./assets/Workshops.jpg";
 
 export const menuHighlights = [
   {
-    name: "Spring Market Salad",
-    description: "Shaved asparagus, heirloom carrots, citrus vinaigrette, and toasted seeds.",
+    name: "Cumin Roast Irish Squash",
+    description:
+      "Homemade spiced labneh, pickled squash, and toasted seeds highlighted on the daily salad table. Allergens: Dairy.",
     image: saladBowl,
   },
   {
-    name: "Heritage Grain Sandwich",
-    description: "Warm sourdough, smoked beets, whipped ricotta, and micro herbs.",
+    name: "Roasted Goatsbridge Sea Trout",
+    description:
+      "Sustainable Seafood Ireland catch served with pickled rhubarb for a bright, seasonal fish plate. Allergens: Fish.",
     image: sandwichPlate,
   },
   {
-    name: "Sunrise Buckwheat Tart",
-    description: "Seasonal fruit compote, almond crumble, and vanilla creme fraiche.",
+    name: "Spiced Lamb Kofta",
+    description:
+      "JJ Young & Sons lamb with mint and cucumber yoghurt - a warming option alongside vibrant vegetarian salads. Allergens: Dairy.",
     image: pastryBoard,
   },
 ];
 
 export const communityExperiences = [
   {
-    title: "Seasonal Workshops",
-    description: "Hands-on classes sharing fermentation, pastry, and preserve techniques with our chefs.",
-    image: workshopsGathering,
-  },
-  {
-    title: "Private Catering",
-    description: "Custom plant-forward menus for celebrations, studios, and brand events across Dublin.",
+    title: "Catering Gatherings",
+    description:
+      "Celebration menus designed for up to 50 guests with seasonal salads, breads, and vibrant mains.",
     image: cateringExperience,
   },
   {
-    title: "Farm Field Trips",
-    description: "Guided visits to meet the growers behind our plates, complete with picnic spreads.",
+    title: "Tiller + Trip Boxes",
+    description:
+      "Ready-to-pack feasts for two, four, or six people (€80/€160/€240) with 48 hours' notice.",
     image: tillerTrip,
+  },
+  {
+    title: "Workshops & Events",
+    description:
+      "Hands-on classes are paused, but register your interest to hear when fermentation and baking sessions return.",
+    image: workshopsGathering,
   },
 ];
 
@@ -71,21 +77,21 @@ export const galleryShowcase = [
 
 export const sustainabilityHighlights = [
   {
-    title: "Local farmers first",
-    description: "Partnering with small growers across Leinster to champion regenerative crops.",
+    title: "Vegetables from Irish farms",
+    description: "Airfield Farm and Sean Hussey & Sons keep our salad table stocked with seasonal produce.",
   },
   {
-    title: "Seasonal by design",
-    description: "Menus that follow the harvest, cutting waste and keeping plates exciting year-round.",
+    title: "Trusted meat & fish",
+    description: "We work with JJ Young & Sons for free-range meats and Sustainable Seafood Ireland for daily catch.",
   },
   {
-    title: "Zero single-use",
-    description: "Compostable packaging, refill stations, and responsible sourcing throughout our pantry.",
+    title: "Artisan pantry partners",
+    description: "Specialty goods arrive from Lilliput Stores and other Dublin makers who share our values.",
   },
 ];
 
 export const operatingHours = [
-  { day: "Mon-Fri", hours: "08:00-16:00" },
+  { day: "Monday - Friday", hours: "08:00 - 16:00" },
   { day: "Saturday", hours: "Closed" },
   { day: "Sunday", hours: "Closed" },
 ];
@@ -94,5 +100,5 @@ export const contactDetails = {
   address: "23 Frederick St S",
   locality: "Dublin, D02 KT21, Ireland",
   email: "hello@tillerandgrain.ie",
-  phone: "+353 (0)1 555 3124",
+  cateringEmail: "catering@tillerandgrain.ie",
 };

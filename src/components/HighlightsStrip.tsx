@@ -1,18 +1,18 @@
 const highlights = [
   {
-    title: "Seasonal plates",
-    description: "Menus change each week to spotlight Irish growers at peak flavour.",
-    accent: "🌿",
+    title: "Salads, sandwiches & bakery",
+    description: "Daily menu of colourful salads, warm mains, and pastries baked in-house.",
+    accent: "🥗",
   },
   {
-    title: "Sunlit space",
-    description: "A bright dining room with warm service from early breakfast through brunch.",
-    accent: "☀️",
+    title: "Staycation boxes",
+    description: "Tiller + Trip Boxes feed two, four, or six people with 48 hours' notice.",
+    accent: "🧺",
   },
   {
-    title: "Community roots",
-    description: "Partnerships with local makers for breads, ferments, and specialty coffee.",
-    accent: "🤝",
+    title: "Catering expertise",
+    description: "Celebration spreads crafted for gatherings of up to fifty guests.",
+    accent: "🍽️",
   },
 ];
 

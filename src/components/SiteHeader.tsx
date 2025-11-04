@@ -34,7 +34,7 @@ const SiteHeader = () => {
           <div>
             <p className="font-serif text-lg text-contrast leading-none">Tiller + Grain</p>
             <p className="text-[10px] uppercase tracking-[0.32em] text-[rgba(77,77,77,0.6)]">
-             Vegetarian Cafe
+              Cafe & catering
             </p>
           </div>
         </a>
@@ -54,7 +54,9 @@ const SiteHeader = () => {
         <div className="hidden items-center gap-4 lg:flex">
           <div className="rounded-2xl bg-white/70 px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.26em] text-contrast">
             <span className="block">Open Mon-Fri: 8am-4pm</span>
-            <span className="block text-[9.5px] tracking-[0.3em] text-[rgba(77,77,77,0.7)]">Sat & Sun: Closed</span>
+            <span className="block text-[9.5px] tracking-[0.3em] text-[rgba(77,77,77,0.7)]">
+              Sat & Sun: Closed · Deliveroo Mon-Fri
+            </span>
           </div>
           <a
             className="rounded-full border border-primary px-5 py-2 text-sm font-semibold text-contrast transition hover:bg-primary hover:text-contrast"

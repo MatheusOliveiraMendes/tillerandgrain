@@ -17,8 +17,9 @@ const CommunityExperiences = () => {
             Experiences that bring growers, makers, and neighbours together.
           </h2>
           <p className="mt-4 text-[rgba(77,77,77,0.85)]">
-            Join us beyond the cafe walls—from collaborative workshops to bespoke catering spreads
-            and seasonal farm visits that deepen our connection to local producers.
+            From celebration catering to ready-to-go Trip Boxes, we keep seasonal food flowing
+            outside the cafe. Workshops are paused for now, but we are gathering interest for the
+            next series.
           </p>
         </div>
 
@@ -44,7 +45,7 @@ const CommunityExperiences = () => {
                 <p className="text-sm text-[rgba(77,77,77,0.8)]">{item.description}</p>
                 <div className="mt-auto flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.32em] text-[rgba(77,77,77,0.65)]">
                   <span className="inline-flex h-2 w-2 rounded-full bg-primary" />
-                  Let’s plan together
+                  Let's plan together
                 </div>
               </div>
             </article>

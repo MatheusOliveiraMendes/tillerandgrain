@@ -9,11 +9,11 @@ const MenuHighlights = () => {
             Menu
           </span>
           <h2 className="font-serif text-3xl leading-snug text-contrast md:text-4xl">
-            Vibrant plates prepared at first light.
+            Daily salads, hearty mains, and bakery favourites.
           </h2>
           <p className="mt-4 text-[rgba(77,77,77,0.85)]">
-            Our menu moves with the harvest - colourful, vegetarian, and layered with textures that
-            tell the stories of our growers.
+            The counter changes with the Irish harvest - think roasted vegetables, sustainable fish,
+            free-range meats, and breads baked in-house alongside clearly marked allergens.
           </p>
         </div>
 
