@@ -1,4 +1,4 @@
-import heroImage from "../assets/Screenshot 2025-10-29 at 23.19.26.png";
+import heroImage from "../assets/chef-preparing-food-yellow-kitchen.png";
 
 const Hero = () => {
   return (
@@ -58,7 +58,7 @@ const Hero = () => {
             <div className="absolute -left-6 top-10 hidden h-24 w-24 rounded-full border border-white/60 bg-white/70 shadow-[0_35px_80px_-50px_rgba(15,24,32,0.65)] backdrop-blur sm:block" />
             <div className="relative overflow-hidden rounded-[2.75rem] border border-white/60 bg-white shadow-[0_50px_120px_-60px_rgba(15,24,32,0.55)] transition duration-700 hover:-translate-y-1 hover:shadow-[0_50px_120px_-40px_rgba(15,24,32,0.55)]">
               <img
-                alt="Press feature spotlighting Tiller + Grain"
+                alt="Chef Clair Dowling preparing dishes in the Tiller + Grain kitchen"
                 className="h-full w-full object-cover"
                 src={heroImage}
               />

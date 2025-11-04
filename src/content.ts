@@ -1,33 +1,33 @@
-import bakeryHome from "./assets/BakeryHome-1.jpg";
-import cateringExperience from "./assets/Catering.jpg";
-import dailyMenuSalad from "./assets/Daily-Menu-Salad.jpg";
-import galleryLayerEleven from "./assets/Layer-11-3.jpg";
-import galleryLayerTwo from "./assets/Layer-2-1-scaled.jpg";
-import galleryLayerSeven from "./assets/Layer-7-1-scaled.jpg";
-import saladBowl from "./assets/Layer-9-3.jpg";
-import sandwichPlate from "./assets/Layer-8-2.jpg";
-import pastryBoard from "./assets/Layer-5-1-scaled.jpg";
-import tillerTrip from "./assets/TillerTrip-Pic-1.jpg";
-import workshopsGathering from "./assets/Workshops.jpg";
+import bakeryPastriesImage from "./assets/almond-croissants-with-nuts-and-glaze.jpg";
+import cateringBanquetImage from "./assets/restaurant-food-spread-overhead-view.jpg";
+import saladPrepImage from "./assets/hand-seasoning-fresh-salad-close-up.jpg";
+import celebrationCakesImage from "./assets/chocolate-drip-cakes-buttercream-rosettes.jpg";
+import chocolateTorteImage from "./assets/chocolate-cake-sliced-dried-flower-decoration.jpg";
+import decoratedCakeImage from "./assets/decorated-cake-dried-apples-flowers-rosemary.jpg";
+import grainBowlsImage from "./assets/assorted-vegetarian-grain-bowls-roasted-vegetables.jpg";
+import seaTroutImage from "./assets/poached-trout-grain-bowl-roasted-vegetables.jpg";
+import charredBeefImage from "./assets/beef-tenderloin-lentils-roasted-vegetables.jpg";
+import lemonMeringueImage from "./assets/lemon-meringue-tart-slice-torched-topping.jpg";
+import canapeDisplayImage from "./assets/scallop-canapes-on-radicchio-with-caviar.jpg";
 
 export const menuHighlights = [
   {
     name: "Cumin Roast Irish Squash",
     description:
       "Homemade spiced labneh, pickled squash, and toasted seeds highlighted on the daily salad table. Allergens: Dairy.",
-    image: saladBowl,
+    image: grainBowlsImage,
   },
   {
     name: "Roasted Goatsbridge Sea Trout",
     description:
       "Sustainable Seafood Ireland catch served with pickled rhubarb for a bright, seasonal fish plate. Allergens: Fish.",
-    image: sandwichPlate,
+    image: seaTroutImage,
   },
   {
     name: "Spiced Lamb Kofta",
     description:
       "JJ Young & Sons lamb with mint and cucumber yoghurt - a warming option alongside vibrant vegetarian salads. Allergens: Dairy.",
-    image: pastryBoard,
+    image: charredBeefImage,
   },
 ];
 
@@ -36,42 +36,42 @@ export const communityExperiences = [
     title: "Catering Gatherings",
     description:
       "Celebration menus designed for up to 50 guests with seasonal salads, breads, and vibrant mains.",
-    image: cateringExperience,
+    image: canapeDisplayImage,
   },
   {
     title: "Tiller + Trip Boxes",
     description:
       "Ready-to-pack feasts for two, four, or six people (€80/€160/€240) with 48 hours' notice.",
-    image: tillerTrip,
+    image: lemonMeringueImage,
   },
   {
     title: "Workshops & Events",
     description:
       "Hands-on classes are paused, but register your interest to hear when fermentation and baking sessions return.",
-    image: workshopsGathering,
+    image: decoratedCakeImage,
   },
 ];
 
 export const galleryShowcase = [
   {
     label: "Morning pastry counter",
-    image: bakeryHome,
+    image: bakeryPastriesImage,
   },
   {
-    label: "Daily harvest salad",
-    image: dailyMenuSalad,
+    label: "Finishing a seasonal salad",
+    image: saladPrepImage,
   },
   {
-    label: "Sun-drenched dining room",
-    image: galleryLayerTwo,
+    label: "Catering spread ready to serve",
+    image: cateringBanquetImage,
   },
   {
-    label: "Golden hour plating",
-    image: galleryLayerSeven,
+    label: "Slicing our signature chocolate torte",
+    image: chocolateTorteImage,
   },
   {
-    label: "Latte art at golden hour",
-    image: galleryLayerEleven,
+    label: "Celebration cakes with buttercream detail",
+    image: celebrationCakesImage,
   },
 ];
 
