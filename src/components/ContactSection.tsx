@@ -17,12 +17,10 @@ const ContactSection = () => {
             <span className="inline-block rounded-full border border-white/60 bg-white/80 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.32em] text-contrast shadow-[0_12px_35px_-28px_rgba(15,24,32,0.6)]">
               Visit us
             </span>
-            <h2 className="font-serif text-3xl text-contrast md:text-4xl">
-              Plan your sunny visit.
-            </h2>
+            <h2 className="font-serif text-3xl text-contrast md:text-4xl">Plan your visit.</h2>
             <p className="max-w-2xl text-sm text-[rgba(77,77,77,0.78)]">
-              We love welcoming people who crave vibrant food. Write, call, or drop by - the cafe is
-              filled with natural light and friendly faces ready to help.
+              Pop in Monday to Friday from 8am to 4pm for salads, sandwiches, and bakery treats.
+              Prefer delivery or collection? We offer that Monday to Friday too.
             </p>
           </div>
 
@@ -48,19 +46,7 @@ const ContactSection = () => {
           </div>
           <div className="rounded-2xl border border-white/60 bg-white/85 p-5 shadow-[0_22px_60px_-40px_rgba(35,49,59,0.45)]">
             <span className="text-xs uppercase tracking-[0.3em] text-[rgba(77,77,77,0.6)]">
-              Phone
-            </span>
-            <a
-              className="mt-2 block font-serif text-lg text-contrast underline decoration-primary/40 underline-offset-4"
-              href={`tel:${contactDetails.phone.replace(/[^+\d]/g, "")}`}
-            >
-              {contactDetails.phone}
-            </a>
-            <p className="text-xs text-[rgba(77,77,77,0.7)]">Call us between 08:00-16:00</p>
-          </div>
-          <div className="rounded-2xl border border-white/60 bg-white/85 p-5 shadow-[0_22px_60px_-40px_rgba(35,49,59,0.45)]">
-            <span className="text-xs uppercase tracking-[0.3em] text-[rgba(77,77,77,0.6)]">
-              Email
+              General enquiries
             </span>
             <a
               className="mt-2 block font-serif text-lg text-contrast underline decoration-primary/40 underline-offset-4"
@@ -68,14 +54,28 @@ const ContactSection = () => {
             >
               {contactDetails.email}
             </a>
-            <p className="text-xs text-[rgba(77,77,77,0.7)]">We reply within 24 hours</p>
+            <p className="text-xs text-[rgba(77,77,77,0.7)]">Drop us a note about daily menus or workshops.</p>
+          </div>
+          <div className="rounded-2xl border border-white/60 bg-white/85 p-5 shadow-[0_22px_60px_-40px_rgba(35,49,59,0.45)]">
+            <span className="text-xs uppercase tracking-[0.3em] text-[rgba(77,77,77,0.6)]">
+              Catering enquiries
+            </span>
+            <a
+              className="mt-2 block font-serif text-lg text-contrast underline decoration-primary/40 underline-offset-4"
+              href={`mailto:${contactDetails.cateringEmail}`}
+            >
+              {contactDetails.cateringEmail}
+            </a>
+            <p className="text-xs text-[rgba(77,77,77,0.7)]">
+              Tell us about your celebration for up to fifty guests.
+            </p>
           </div>
           <div className="rounded-2xl border border-white/60 bg-gradient-to-br from-secondary/20 to-white/70 p-5 shadow-[0_22px_60px_-40px_rgba(35,49,59,0.45)]">
             <span className="text-xs uppercase tracking-[0.3em] text-[rgba(77,77,77,0.6)]">
               Quick note
             </span>
             <p className="mt-2 text-sm text-[rgba(77,77,77,0.85)]">
-              Seating is mostly walk in, but groups of 6+ can call ahead for a reserved table.
+              Trip Boxes need 48 hours' notice and Deliveroo orders run Monday to Friday.
             </p>
           </div>
         </div>
@@ -117,9 +117,9 @@ const ContactSection = () => {
           </a>
           <a
             className="rounded-full border border-[rgba(35,49,59,0.12)] bg-white/85 px-6 py-3 text-sm font-semibold text-contrast shadow-[0_18px_50px_-35px_rgba(35,49,59,0.45)] transition hover:-translate-y-0.5 hover:border-primary/40"
-            href={`mailto:${contactDetails.email}`}
+            href={`mailto:${contactDetails.cateringEmail}`}
           >
-            Book a table
+            Request catering menu
           </a>
         </div>
 

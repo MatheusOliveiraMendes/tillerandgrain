@@ -26,34 +26,34 @@ const AboutSection = () => {
             About us
           </span>
           <h2 className="font-serif text-3xl leading-snug text-contrast md:text-4xl">
-            Rooted in flavour, guided by nature.
+            "Take the best of fresh, seasonal Irish produce... treat it simply."
           </h2>
           <p className="mt-4 text-base leading-relaxed text-[rgba(77,77,77,0.85)]">
-            Led by Chef Clair Dowling, Tiller + Grain celebrates Irish growers with thoughtful
-            vegetarian cooking. Each season we reshape the table, keeping ingredients in the
-            spotlight and our open kitchen full of warmth.
+            The mission at Tiller + Grain is to cook with taste and nutrition at the heart, giving
+            due credit to the Irish farmers and independent makers who shape our pantry every day.
           </p>
           <p className="mt-4 text-base leading-relaxed text-[rgba(77,77,77,0.85)]">
-            From slow-roasted roots to citrus-spiked dressings, everything is made in-house. Expect
-            generous hospitality, mindful sourcing, and plates that leave you feeling nourished.
+            Expect salads layered with Airfield Farm greens, slow-cooked meats from JJ Young & Sons,
+            sustainable fish from Sustainable Seafood Ireland, and artisan pantry goods from Lilliput
+            Stores, served with warm Dublin hospitality.
           </p>
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             <div className="flex flex-col gap-1 rounded-2xl border border-white/60 bg-white/80 px-4 py-6 text-center shadow-[0_20px_60px_-40px_rgba(15,24,32,0.45)]">
-              <span className="font-serif text-3xl text-contrast">30+</span>
+              <span className="font-serif text-xl text-contrast">Airfield Farm</span>
               <span className="text-xs uppercase tracking-[0.3em] text-[rgba(77,77,77,0.65)]">
-                Local producers
+                Seasonal vegetables
               </span>
             </div>
             <div className="flex flex-col gap-1 rounded-2xl border border-white/60 bg-white/80 px-4 py-6 text-center shadow-[0_20px_60px_-40px_rgba(15,24,32,0.45)]">
-              <span className="font-serif text-3xl text-contrast">12</span>
+              <span className="font-serif text-xl text-contrast">JJ Young & Sons</span>
               <span className="text-xs uppercase tracking-[0.3em] text-[rgba(77,77,77,0.65)]">
-                Seasonal menu refreshes
+                Free-range meats
               </span>
             </div>
             <div className="flex flex-col gap-1 rounded-2xl border border-white/60 bg-white/80 px-4 py-6 text-center shadow-[0_20px_60px_-40px_rgba(15,24,32,0.45)]">
-              <span className="font-serif text-3xl text-contrast">100%</span>
+              <span className="font-serif text-xl text-contrast">Sustainable Seafood Ireland</span>
               <span className="text-xs uppercase tracking-[0.3em] text-[rgba(77,77,77,0.65)]">
-                Vegetarian menu
+                Irish fish
               </span>
             </div>
           </div>

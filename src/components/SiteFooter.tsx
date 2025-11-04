@@ -32,10 +32,7 @@ const SiteFooter = () => {
             Tiller + Grain
           </div>
           <p className="max-w-sm text-sm text-[rgba(250,248,242,0.8)]">
-            Fresh, seasonal vegetarian plates served with Dublin hospitality in the heart of Dublin 2.
-          </p>
-          <p className="text-xs uppercase tracking-[0.32em] text-[rgba(250,248,242,0.65)]">
-            Built with React & Vite
+            Seasonal salads, sandwiches, bakery treats, and catering crafted with Dublin hospitality.
           </p>
         </div>
 
